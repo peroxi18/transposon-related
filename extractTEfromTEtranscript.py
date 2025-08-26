@@ -81,10 +81,10 @@ if __name__ == "__main__":
         5. module load bedtools
 
         Usage:
-          extractTEfromTEtranscript.py <TE_reference.bed> <sample.bam> <output.fastq.gz>
+          extractTE.py <TE_reference.bed> <sample.bam> <output.fastq.gz>
 
         Example:
-          extractTEfromTEtranscript.py TE_ref.bed sample.bam output.fastq.gz
+          extractTE.py TE_ref.bed sample.bam output.fastq.gz
         """
     )
     parser.add_argument("teRef", help="TE reference file in BED format")
